@@ -2,6 +2,35 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* font-family: 'Nosifer', cursive; */
+}
+
+.font1 {
+    font-family: 'Nosifer', cursive;
+}
+
+
+body {
+    /* background-color: black; */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50rem;
+    height: 60rem;
+    max-width: 50rem;
+    min-width: 30rem;
+    max-height: 100rem;
+    min-height: 45rem;
+    /* background-color: rgb(220, 73, 19); */
+}
+
+h1 {
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+li {
     /* font-family: 'Rubik Wet Paint', cursive; */
 }
