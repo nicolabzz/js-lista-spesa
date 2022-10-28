@@ -4,18 +4,11 @@
     box-sizing: border-box;
 }
 
-.font1 {
-    font-family: 'Nosifer', cursive;
-}
-
-
 body {
     background-color: black;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
     margin: auto;
     width: 50rem;
     height: 60rem;
@@ -24,13 +17,28 @@ body {
     max-height: 100rem;
     min-height: 45rem;
     background-color: rgb(220, 73, 19);
+    text-align: center;
 }
 
 h1 {
     padding: 2rem 2rem;
     text-align: center;
+    display: block;
+    font-family: 'Nosifer', cursive;
+}
+
+.list {
+    margin:auto;
+    border: 5px solid black;
+    width: 50%;
+}
+
+ul {
+    display: block;
 }
 
 li {
     font-family: 'Rubik Wet Paint', cursive;
+    font-size: 3rem;
+    border-bottom: 1px solid black;
 }
