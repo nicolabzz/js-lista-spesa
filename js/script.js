@@ -4,14 +4,14 @@ const listItem = [
     'blood',
     'skulls',
     'bats',
-    'web'
+    'webs'
 ];
 
 const output = document.getElementById('output');
 
 i = 0;
 
-while (i < listItem.length) {
+while (i < listItem.length - 1) {
 
     const li = document.createElement('li');
 

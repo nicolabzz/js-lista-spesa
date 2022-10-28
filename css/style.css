@@ -10,7 +10,7 @@
 
 
 body {
-    /* background-color: black; */
+    background-color: black;
 }
 
 .container {
@@ -23,7 +23,7 @@ body {
     min-width: 30rem;
     max-height: 100rem;
     min-height: 45rem;
-    /* background-color: rgb(220, 73, 19); */
+    background-color: rgb(220, 73, 19);
 }
 
 h1 {
@@ -32,5 +32,5 @@ h1 {
 }
 
 li {
-    /* font-family: 'Rubik Wet Paint', cursive; */
+    font-family: 'Rubik Wet Paint', cursive;
 }
